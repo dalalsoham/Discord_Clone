@@ -4,6 +4,12 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import AddIcon from '@mui/icons-material/Add';
 import SidebarChannel from './SidebarChannel';
 import SignalCellularAltIcon from '@mui/icons-material/SignalCellularAlt';
+import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
+import CallIcon from "@mui/icons-material/Call";
+import { Avatar } from '@mui/material';
+import MicIcon from '@mui/icons-material/Mic';
+import HeadsetIcon from '@mui/icons-material/Headset';
+import SettingsIcon from '@mui/icons-material/Settings';
 
 function Sidebar() {
   return (
@@ -44,6 +50,19 @@ function Sidebar() {
             <InfoOutlinedIcon />
             <CallIcon />
         </div>
+      </div>
+      <div className="sidebar__profile">
+          <Avatar src="https://pbs.twimg.com/profile_images/1667789941643055104/VtxxOHfB_400x400.jpg" />
+          <div className="sidebar__profileInfo">
+            <h3>mr_sd_jack_003</h3>
+            <p>#thisismyid</p>
+          </div>
+
+          <div className="sidebar__profileIcons">
+            <MicIcon />
+            <HeadsetIcon />
+            <SettingsIcon />
+          </div>
       </div>
     </div>
   );

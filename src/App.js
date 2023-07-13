@@ -3,6 +3,7 @@ import React from 'react';
 // import { Counter } from './features/counter/Counter';
 import './App.css';
 import Sidebar from './Sidebar';
+import Chat from './Chat';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Sidebar />
 
       {/* Chat */}
+      <Chat />
     </div>
   );
 }
