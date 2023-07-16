@@ -9,15 +9,16 @@
 .login > button 
 {
     width: 300px;
-    background-color: #738adb;
+    /* background-color: #738adb; */
+    background-color: #586cfc;
     color: #eff2f5;
     font-weight: 800;
 }
 
 .login > button:hover
 {
-    background-color: #343a4e;
-    color: #738adb;
+    background-color: #738adb;
+    color: #465585;
 }
 
 /* .login > div
