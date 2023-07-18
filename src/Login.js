@@ -1,12 +1,12 @@
 import React from 'react';
 import './Login.css';
 import { Button } from '@mui/material';
-// import { auth, provider } from './firebase';
+import { auth, provider } from './firebase';
 
 function Login() {
     const signIn = () => {
         //google login here
-        // auth.signInWithPopup(provider).catch((error) => alert(error.message));
+        auth.signInWithPopup(provider).catch((error) => alert(error.message));
     };
 
   return (
